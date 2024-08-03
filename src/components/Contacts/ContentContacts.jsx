@@ -1,25 +1,14 @@
 import React from "react";
 
-const ContactForm = () => {
+const ContentContacts = () => {
   return (
-    <div className="bg-blue-900 min-h-screen flex flex-col">
-      <header className="flex justify-between items-center p-4">
-        <div className="w-12 h-12 bg-blue-300 rounded-full"></div>
-        <nav>
-          <ul className="flex space-x-6 text-white">
-            <li>Home</li>
-            <li>About</li>
-            <li>Divisi</li>
-            <li>Contact Us</li>
-          </ul>
-        </nav>
-      </header>
-
+    <div className="bg-blue-900 h-full flex flex-col">
       <main className="flex-grow flex justify-center items-center">
         <div className="w-full max-w-lg">
           <h1 className="text-white text-4xl font-bold mb-8 text-center">
             Contact
           </h1>
+
           <form className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-white mb-2">
@@ -67,4 +56,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default ContentContacts;

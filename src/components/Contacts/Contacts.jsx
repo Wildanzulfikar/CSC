@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import ContentContacts from "./ContentContacts";
 
-function Home() {
+function Contacts() {
   return (
     <div className="w-full h-screen bg-[#003366]">
       <Navbar />
@@ -11,4 +11,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Contacts;
