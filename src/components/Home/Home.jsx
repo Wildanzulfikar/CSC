@@ -5,7 +5,7 @@ import ContentHome from "./ContentHome";
 function Home () {
     return (
         <div className="w-full h-screen bg-[#003366]">
-            <Navbar/>
+            <Navbar />
             <ContentHome />
         </div>
     )   
