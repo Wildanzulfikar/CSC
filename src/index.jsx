@@ -4,12 +4,15 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Divisi from './components/Divisi/Divisi';
 
 ReactDOM.render(
   <Router>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/divisi" element={<Divisi />} />
+    </Routes>
     </Routes>
   </Router>,
   document.getElementById('root')
