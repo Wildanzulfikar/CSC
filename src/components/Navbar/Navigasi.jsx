@@ -20,9 +20,9 @@ function Navigasi() {
         </Link>
       </li>
       <li>
-        <a to="/contacts" className="hover:text-yellow-400">
+        <Link to="/contacts" className="hover:text-yellow-400">
           Contact Us
-        </a>
+        </Link>
       </li>
     </ul>
   );

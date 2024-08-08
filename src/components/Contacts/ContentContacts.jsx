@@ -2,7 +2,7 @@ import React from "react";
 
 const ContentContacts = () => {
   return (
-    <div className="bg-blue-900 h-full flex flex-col">
+    <div className="h-full flex flex-col">
       <main className="flex-grow flex justify-center items-center">
         <div className="w-full max-w-lg">
           <h1 className="text-white text-4xl font-bold mb-8 text-center">
