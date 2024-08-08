@@ -15,14 +15,14 @@ function Navigasi() {
         </Link>
       </li>
       <li>
-        <a href="#divisi" className="hover:text-yellow-400">
+        <Link to="/divisi" className="hover:text-yellow-400">
           Divisi
-        </a>
+        </Link>
       </li>
       <li>
-        <Link to="/contacts" className="hover:text-yellow-400">
+        <a to="/contacts" className="hover:text-yellow-400">
           Contact Us
-        </Link>
+        </a>
       </li>
     </ul>
   );

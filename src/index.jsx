@@ -5,6 +5,7 @@ import "./index.css";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts";
+import Divisi from "./components/Divisi/Divisi";
 
 ReactDOM.render(
   <Router>
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contacts" element={<Contacts />} />
+      <Route path="/divisi" element={<Divisi />} />
     </Routes>
   </Router>,
   document.getElementById("root")
